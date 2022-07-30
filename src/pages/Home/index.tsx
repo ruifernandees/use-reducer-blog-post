@@ -15,7 +15,7 @@ export const Home: React.FC = () => {
 
   return (
     <main className="flex flex-col items-center justify-center w-screen h-screen">
-      <div className="flex flex-col items-center justify-center w-screen h-screen w-400">
+      <div className="flex flex-col items-center justify-center w-screen h-screen w-350">
         <hr />
         <Feedback {...feedbackState} />
         <button 
