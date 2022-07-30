@@ -1,11 +1,5 @@
 import React from 'react';
-import { IconProps } from '../../assets/icons/IconProps';
-
-interface FeedbackProps {
-  icon: React.FC<IconProps>;
-  color: string;
-  message: string;
-}
+import { FeedbackProps } from './props';
 
 export const Feedback: React.FC<FeedbackProps> = ({ icon, color, message }) => {
   const CurrentIcon = icon;
