@@ -6,7 +6,7 @@ export const Feedback: React.FC<FeedbackProps> = ({ icon, color, message }) => {
 
   return (
     <div 
-      className={`flex mb-2 justify-center items-center h-10 px-6 w-300 font-semibold rounded-md transition-all ease-in text-white`}
+      className="flex mb-2 justify-center items-center h-10 px-6 w-300 font-semibold rounded-md transition-all ease-in text-white"
       style={{
         backgroundColor: color
       }}
